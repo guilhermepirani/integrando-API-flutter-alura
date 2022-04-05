@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:persistencia_flutter_alura/http/webclient.dart';
 
 import 'screens/dashboard.dart';
 
 void main() {
   runApp(BytebankApp());
-  findAll();
 }
 
 class BytebankApp extends StatelessWidget {
